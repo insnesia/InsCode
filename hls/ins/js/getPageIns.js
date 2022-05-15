@@ -45,7 +45,7 @@ function InsLive(){
     }
 
 function tele() {
-  fetch(`https://api.telegra.ph/getPage/MotoGP-INS2-04-30?return_content=true`,{method: 'GET'})
+  fetch(`https://api.telegra.ph/getPage/InsGP-05-15?return_content=true`,{method: 'GET'})
   .then((response) => {
     return response.json()
   })

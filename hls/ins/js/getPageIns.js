@@ -1,7 +1,7 @@
 function InsLive(){
   const video = document.querySelector("video");
   const source = video.getElementsByTagName("source")[0].src;
-  const controls = ['play','current-time','mute','volume','settings','fullscreen'];
+  const controls = ['play','current-time','progress','mute','volume','settings','fullscreen'];
   const defaultOptions = {controls};
 
   if (Hls.isSupported()) {

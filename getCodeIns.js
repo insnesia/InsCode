@@ -51,7 +51,6 @@ function tele() {
   })
   .then((data) => {
     document.getElementById("vid").src = data.result.content[0].children[0].attrs.href;
-	document.getElementById("info").innerHTML = "Bantu klik iklan, agar kami bisa selalu memberikan hiburan terkini.";
    InsLive();  
   })
   .catch((err) => {

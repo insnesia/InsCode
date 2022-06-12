@@ -30,6 +30,16 @@ function sc_online_t(id, label, fcolor) {
     a.parentNode.insertBefore(ga, a);
 }
 
+function sc_onlinetext(id, out) {
+    var a = document.createElement("a");
+    a.setAttribute('href', "//www.insnesia.com");
+    a.setAttribute('title', "Real-time web tracking by SA DevLabs");
+    a.setAttribute('target', "");
+    a.innerHTML = out;
+
+    ct_insert(a, "supercounters.com/ssl/online_t.js");
+}
+
 function ct_insert(c, d) {
     var a = document.getElementsByTagName("script");
     for (var b = 0; b < a.length; b++) {

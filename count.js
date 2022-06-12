@@ -32,9 +32,9 @@ function sc_online_t(id, label, fcolor) {
 
 function sc_onlinetext(id, out) {
     var a = document.createElement("a");
-    a.setAttribute('href', "//www.insnesia.com" + id);
-    a.setAttribute('title', "Real-time web tracking by SA DevLabs");
-    a.setAttribute('target', "");
+    a.setAttribute('href', "//www.supercounters.com/stats/" + id);
+    a.setAttribute('title', "Real-time web tracking from supercounters");
+    a.setAttribute('target', "_blank");
     a.innerHTML = out;
 
     ct_insert(a, "supercounters.com/ssl/online_t.js");

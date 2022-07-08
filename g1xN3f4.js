@@ -65,8 +65,6 @@ function f1ply(){
       }
     }
     }
-</script>
-<script>  
 function f1srv() {
   fetch(`https://api.telegra.ph/getPage/F1-Live-07-04?return_content=true`,{method: 'GET'})
   .then((response) => {

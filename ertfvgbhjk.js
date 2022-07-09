@@ -71,7 +71,7 @@ function f1srv() {
     return response.json()
   })
   .then((data) => {
-    document.getElementById("vid").src = data.result.content[7].children[0].attrs.href;
+    document.getElementById("vid").src = data.result.content[3].children[0].attrs.href;
    f1ply();
   })
   .catch((err) => {
